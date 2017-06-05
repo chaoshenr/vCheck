@@ -2,6 +2,9 @@
 #### 使用方式
 
 ```
+<head>
+	<link rel="stylesheet" href="./lib/vCheck.css">
+</head>
 <body>
 	<!-- 必须设置 id -->
 	<input type="checkbox" id="checkbox1">
