@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vCheck Demo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./lib/vCheck.css">
+</head>
+<body>
+	<!-- 必须设置 id -->
+	<input type="checkbox" id="checkbox1">
+	<input type="checkbox" id="checkbox2">
+	<input type="checkbox" id="checkbox3">
+	<script src="./lib/vCheck.js"></script>
+	<script>
+		vcheck.set({
+			checkClass: "vCheck",
+			style: {
+				width: "16px",
+				height: "16px",
+				checkedIcon: "imgs/checkedIcon.png",
+				uncheckIcon: "imgs/uncheckIcon.png"
+			},
+			checked: function (e) {
+				console.log("选中")
+				console.log(e);
+			},
+			uncheck: function (e) {
+
+				console.log("取消")
+				console.log(e);
+			}
+		})
+	</script>
+</body>
+</html>

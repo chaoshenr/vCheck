@@ -1,0 +1,21 @@
+[name="vCheck"] {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+}
+[name="vCheck"] label {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover!important;
+}
+[name="vCheck"] input {
+	opacity: 0;
+	margin: 0;
+	width: 0;
+	height: 0;
+}
